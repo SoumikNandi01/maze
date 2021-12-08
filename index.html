@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Maze Runner</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main">
+    <div class="wrapper">
+      <img src="" id="fish_thank" alt="" class="center">
+      <h1 id="title"> Press Start Button To Start </h1>
+      <h3 id="level"> </h3>
+
+      <div id="container">
+
+      </div>
+      <div id="controls">
+        <button onclick="moveup()" id="up"></button>
+          <button onclick="movedown()" id="down"></button>
+          <button onclick="moveright()" id="right"></button>
+        <button onclick="moveleft()" id="left"></button>
+    </div>
+
+    <button id="start" type="button" name="button">Start</button>
+
+  </div>
+  </div>
+  <script type="text/javascript" src="mazes/maze.json"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+
+</body>
+
+</html>
